@@ -1,0 +1,21 @@
+{
+  "name": "node-aruco",
+  "version": "0.0.0",
+  "description": "aruco bindings for node",
+  "main": "index.js",
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "opencv": "^6.0.0",
+    "aws-sdk": "~2.1.20"
+  },
+  "scripts": {
+    "test": "npm test",
+    "build": "node-gyp configure build",
+    "install": "node-gyp configure build"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}
